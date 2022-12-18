@@ -1,0 +1,23 @@
+using System.Text;
+using System;
+using System.Linq;
+
+public class HelloWorld
+{
+    static void Main(string[] args)
+    {
+        string mystr,rev;
+        rev="";
+        mystr=Console.ReadLine();
+        Console.WriteLine("string is {0}",mystr);
+        int len;
+        len=mystr.Length-1;
+        while(len>=0)
+        {
+            rev=rev+mystr[len];
+            len--;
+        }
+        Console.WriteLine("Reversed string is {0}",rev);
+        Console.ReadLine();
+    }
+}
