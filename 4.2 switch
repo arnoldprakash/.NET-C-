@@ -1,0 +1,21 @@
+using System;
+
+public class HelloWorld
+{
+    static void Main(string[] args)
+    {
+       int day=2;
+       switch(day)
+       {
+           case 1:
+                  Console.WriteLine("monday");
+                  break;
+           case 2:
+                 Console.WriteLine("tuesday");
+                 break;
+           default:
+                  Console.WriteLine("wrong input");
+                  break;
+       }
+    }
+}
