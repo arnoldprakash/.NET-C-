@@ -1,0 +1,22 @@
+using System.Text;
+using System;
+using System.Linq;
+
+public class HelloWorld
+{
+    static void Main(string[] args)
+    {
+        string [] Cars=new string[4];
+        for(int i=0;i<Cars.Length;i++)
+        {
+            Console.WriteLine("i + Elements ["+ i +"]:");
+            Cars[i]=Console.ReadLine();
+        }
+    for(int i=0;i<Cars.Length;i++)
+    {
+        Console.WriteLine(Cars[i]);
+    }
+        Console.ReadLine();
+    }
+    
+}
