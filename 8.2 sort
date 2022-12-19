@@ -1,0 +1,18 @@
+using System;
+
+using System.Text;
+using System.Linq;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        int[] number={10,29,83,45,51,62,73,83,9,43,56,87,43,2};
+        Array.Sort(number);
+        foreach (int i in number)
+        {
+            Console.WriteLine(i);
+        }
+        Console.ReadLine();
+    }
+}
